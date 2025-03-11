@@ -59,7 +59,7 @@ The project uses TypeScript for static typing and ES module support. The configu
 
 ### Available Scripts
 
-- `npm run dev`: Start the server with hot reloading (using `ts-node-dev`).
+- `npm run dev`: Start the server with hot reloading
 - `npm run build`: Compile TypeScript code to JavaScript.
 - `npm run server`: Compile TypeScript code to Javascript and Run it.
 
