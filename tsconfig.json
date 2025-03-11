@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "removeComments": true,
+    "baseUrl": "src/",
+    "typeRoots": [
+      "./node_modules/*"
+    ],
+    "esModuleInterop": true,
+    "outDir": "dist",
+    "target": "ESNext",
+    "moduleResolution": "bundler",
+    "noEmit": true,
+    "allowImportingTsExtensions": true
+  },
+  "include": [
+    "./src/**/*.ts"
+  ]
+}
