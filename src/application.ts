@@ -1,11 +1,11 @@
 import express from "express";
-import { env } from "./configs/env";
-import database from "./libs/database";
+import { env } from "@/configs/env";
+import database from "@/libs/database";
 import morgan from "morgan";
 import helmet from "helmet";
 import cors from "cors";
-import helmetConfig from "./configs/helmet";
-import jsonSafetyMiddleware from "./middlewares/json.middleware";
+import helmetConfig from "@/configs/helmet";
+import jsonSafetyMiddleware from "@/middlewares/json.middleware";
 
 const app = express();
 

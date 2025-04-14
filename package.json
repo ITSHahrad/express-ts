@@ -2,8 +2,8 @@
   "name": "express-ts",
   "version": "1.0.0",
   "scripts": {
-    "dev": "nodemon src/application.ts",
-    "start": "ts-node src/application.ts",
+    "dev": "nodemon tsconfig-paths/register src/application.ts",
+    "start": "ts-node tsconfig-paths/register src/application.ts",
     "build": "tsc",
     "format": "prettier --write src/**/*.ts"
   },
@@ -24,6 +24,7 @@
     "nodemon": "^3.0.2",
     "prettier": "^3.1.1",
     "ts-node": "^10.9.2",
+    "tsconfig-paths": "^4.2.0",
     "typescript": "^5.3.3"
   }
 }
