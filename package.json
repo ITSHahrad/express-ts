@@ -2,13 +2,14 @@
   "name": "express-ts",
   "version": "1.0.0",
   "scripts": {
-    "dev": "nodemon tsconfig-paths/register src/application.ts",
-    "start": "ts-node tsconfig-paths/register src/application.ts",
+    "dev": "nodemon --exec ts-node -r tsconfig-paths/register src/application.ts",
+    "start": "ts-node -r tsconfig-paths/register src/application.ts",
     "build": "tsc",
     "format": "prettier --write src/**/*.ts"
   },
   "dependencies": {
     "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
     "express": "^4.18.2",
     "helmet": "^7.1.0",
     "mongoose": "^8.0.2",
